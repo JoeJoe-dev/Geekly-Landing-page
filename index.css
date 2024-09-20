@@ -1,0 +1,46 @@
+body {
+  background: #eee4e4;
+  font-family: "Poppins", sans-serif;
+}
+
+/* LOGO */
+.hexagon {
+    height: 3rem;
+    width: 3rem;
+    clip-path: polygon(50% 0, 90% 20%, 90% 64%, 48% 87%, 51% 85%, 10% 64%, 10% 20%);
+    background: black;
+    position: absolute;
+}
+
+.circle {
+    width: 1.4rem;
+    height: 1.4rem;
+    background: green;
+    border: .28rem solid white;
+    position: relative;
+    border-radius: 50%;
+    margin-left: 1.6rem !important;
+}
+
+/* MAIN */
+.main {
+    background-image: url('assets/workspace.jpg'); /* Adjust the path as needed */
+    background-size: cover; /* Optional: to cover the entire element */
+    background-repeat: no-repeat; /* Optional: to prevent repeating */
+    background-position: center; /* Optional: to center the image */
+}
+
+.blurry_background {
+    backdrop-filter: blur(0px) brightness(0.9);
+}
+
+/* MAIN BOTTOM */
+.white_background {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    backdrop-filter: blur(20px); /* Adjust the blur amount as needed */
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+}
+
+.generate {
+    background-color: rgba(0, 0, 0, 0.8);
+}
